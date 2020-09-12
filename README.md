@@ -38,7 +38,7 @@ Release ratio|10%|10%|10%|10%|10%|10%|10%|10%|10%|10%
 ## Coefficients List
 
 
-**1.Mine Owner Level Coefficient: Calculate the level and coefficient based on the amount of ETH staked for mining.** 
+* 1.Mine Owner Level Coefficient: Calculate the level and coefficient based on the amount of ETH staked for mining. 
 
 
 Mine owner level|LV1|LV2|LV3
@@ -47,7 +47,8 @@ The amount of staked ETH|1-5|6-10|11-15
 Coefficients|0.3|0.6|1
 
 
-**2.Mining Boost Level Coefficient: calculate the level and coefficient based on the number of BUB staked for mining.** 
+* 2.Mining Boost Level Coefficient: calculate the level and coefficient based on the number of BUB staked for mining. 
+
 
 Mining boost level|LV1|LV2|LV3|LV4|LV5|LV6
 ---|:--|:--|:--|:--|:--|:--|:--
@@ -55,14 +56,15 @@ The amount of staked BUB|2,000|6,000|10,000|40,000|200,000|1,000,000
 Coefficients|1.5|1.7|2|2|2|2
 
 
-**3.Re-investment Coefficient: A coefficient calculated based on the times of re-investment, any withdrawal operation will reset your times of re-invesment.** 
+* 3.Re-investment Coefficient: A coefficient calculated based on the times of re-investment, any withdrawal operation will reset your times of re-invesment. 
+
 
 The number of re-investment|0 times|1 times|2 times|3 times|4 times and above
 ---|:--|:--|:--|:--|:--
 Coefficients|1.0|1.3|1.7|2.2|3
 
 
-**4.Genesis Boost: Rewards settled within 14 days after contract deployment will enjoy genesis boost with a coefficient of 2.** 
+* 4.Genesis Boost: Rewards settled within 14 days after contract deployment will enjoy genesis boost with a coefficient of 2. 
 
 # About Mining
 
