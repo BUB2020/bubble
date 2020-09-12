@@ -1,3 +1,5 @@
+# [中文版](https://github.com/bubbbbble/bubble/blob/master/READMECN.md)
+
 # About Bubble
 
 Bubble is a token protocol that provides value support through Ethereum incentives. Staking BUB can get higher ETH reward, and the increase in ETH reward will in turn provide stronger support for the value of BUB. In addition, Bubble incorporates multiple coefficients to boost ROI, which means you can control your own earnings . However, as the name of Bubble implies, Bubble's token economy is a bubble experiment.
