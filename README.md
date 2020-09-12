@@ -6,8 +6,10 @@ Good Luck!
 
 
 > **Token symbol： BUB**
- **Token type： ERC-20**
- **Token Supply： 100,000,000**
+
+> **Token type： ERC-20**
+
+> **Token Supply： 100,000,000**
 
 
 ## Distribution
@@ -45,13 +47,14 @@ The amount of staked ETH|1-5|6-10|11-15
 Coefficients|0.3|0.6|1
 
 
-* 2.Mining Boost Level Coefficient: calculate the level and coefficient based on the number of BUB staked for mining. 
+* 2.Mining Boost Level Coefficient: calculate the level and coefficient based on the number of BUB staked for mining.
 
 
 Mining boost level|LV1|LV2|LV3|LV4|LV5|LV6 
----|:--|:--|:--|:--|:--|:--|:-- 
+---|:--|:--|:--|:--|:--|:--
 The amount of staked BUB|2,000|6,000|10,000|40,000|200,000|1,000,000 
 Coefficients|1.5|1.7|2|2|2|2
+
 
 
 * 3.Re-investment Coefficient: A coefficient calculated based on the times of re-investment, any withdrawal operation will reset your times of re-invesment. 
