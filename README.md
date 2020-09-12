@@ -1,16 +1,18 @@
-#About Bubble
+# About Bubble
+
 Bubble is a token protocol that provides value support through Ethereum incentives. Staking BUB can get higher ETH reward, and the increase in ETH reward will in turn provide stronger support for the value of BUB. In addition, Bubble incorporates multiple coefficients to boost ROI, which means you can control your own earnings . However, as the name of Bubble implies, Bubble's token economy is a bubble experiment.
 So, can you get what you eager for on Bubble?
 Good Luck!
 
 
->
-**Token symbol： BUB**
-**Token type： ERC-20**
-**Token Supply： 100,000,000**
+> **Token symbol： BUB**
+
+> **Token type： ERC-20**
+
+> **Token Supply： 100,000,000**
 
 
-##Distribution
+## Distribution
 
 Pool|Quantity|Percentage|Description
 ---|:--:|:--|:--
@@ -20,7 +22,7 @@ Referral Pool|10,000,000|10%|Referral rewards
 Prize Pool|9,000,000|9%|It will be released in 10 rounds based on the prize pool balance, and the released BUB will be converted into ETH to recharge into the prize pool (see the table below for details)
 Total|100,000,000|100%            
 
-##Release Ratio
+## Release Ratio
 
 Round|1st round|2st round|3st round|4st round|5st round|6st round|7st round|8st round|9st round|10st round
 ---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--
@@ -28,12 +30,12 @@ Prize pool balance（ETH）|500|750|1000|1250|1500|1750|2000|2250|2500|2750
 Release ratio|10%|10%|10%|10%|10%|10%|10%|10%|10%|10%
 
 
-#Mining Details
+# Mining Details
 
 * There are 3 mining pools: ETH pool, BUB pool, and referral pool. You need to start with ETH pool to activate the other two pools. 
 * Mining ROI = basic ROI *coefficients  
 
-##Coefficients List
+## Coefficients List
 
 
 **1.Mine Owner Level Coefficient: Calculate the level and coefficient based on the amount of ETH staked for mining.** 
@@ -52,16 +54,17 @@ Mining boost level|LV1|LV2|LV3|LV4|LV5|LV6
 The amount of staked BUB|2,000|6,000|10,000|40,000|200,000|1,000,000
 Coefficients|1.5|1.7|2|2|2|2
 
+
 **3.Re-investment Coefficient: A coefficient calculated based on the times of re-investment, any withdrawal operation will reset your times of re-invesment.** 
 
-复投次数|0|1|2|3|4次及以上
+The number of re-investment|0 times|1 times|2 times|3 times|4 times and above
 ---|:--|:--|:--|:--|:--
-系数|1.0|1.3|1.7|2.2|3
+Coefficients|1.0|1.3|1.7|2.2|3
 
 
 **4.Genesis Boost: Rewards settled within 14 days after contract deployment will enjoy genesis boost with a coefficient of 2.** 
 
-#About Mining
+# About Mining
 
 * Lock-up Period: The staked principal has a default lock-up period of 5 days. After the stake is released, the profit will not be calculated and can be withdrawn at any time. After the withdrawal, the reward for referral will not be calculated.
  
@@ -104,7 +107,7 @@ Coefficients|1.5|1.7|2|2|2|2
 > Example: You started mining for the first time during the genesis period, staked 15 ETH and 10,000 BUB at the same time. After 5 days, the profit will be 10000 * 5% * 200% * 1.0 * 1.0 = 1000 BUB, the APY is as high as 730%.
 
 
-##.Referral Pool
+## 3.Referral Pool
 
 
 * Mining Method: get BUB and ETH rewards by inviting friends to staking in the ETH pool.
@@ -131,7 +134,7 @@ Coefficients|1|1|1|1.2|1.5|2
 
 > Example: You referred A, and you staked 15 ETH and 40,000 BUB for mining. During your mining period, A also invested 15 ETH for mining, earning 0.2 ETH per day. Then, after 5 days, the referral rewards you can get are 50%*0.2*5*1.0*1.2 = 0.6 ETH and 5,000 BUB.
 
-#Prize Pool
+# Prize Pool
 
 * Source of Funding: 2% of the ETH pool deposit will be automatically transferred to the prize pool. The proportion will increase to 3% after 20 days of contract deployment, 4% after 30 days, and 5% after 40 days. 
 
@@ -140,7 +143,7 @@ Coefficients|1|1|1|1.2|1.5|2
 * Protection Period: During 20 days of contract deployment, the draw will not be triggered when the ETH pool contract balance is 0.
  
 
-#Others
+# Others
 
 * 5% of the ETH pool deposit will be automatically transferred to a special account, of which 3% is used for application development and 2% is used for team operations.
 
