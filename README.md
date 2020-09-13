@@ -49,13 +49,13 @@ The amount of staked ETH|1-5|6-10|11-15
 Coefficients|0.3|0.6|1
 
 
-* 2.Mining Boost Level Coefficient: calculate the level and coefficient based on Boost level.
+* 2.Mining Boost Coefficient: calculate the level and coefficient based on Boost level.
 
 
 Boost level|LV1|LV2|LV3|LV4|LV5|LV6 
 ---|:--|:--|:--|:--|:--|:--
 The amount of staked BUB|2,000|6,000|10,000|40,000|200,000|1,000,000 
-Mining Boost Level Coefficients|1.5|1.7|2|2|2|2
+Mining Boost Coefficients|1.5|1.7|2|2|2|2
 
 
 
@@ -93,7 +93,7 @@ Coefficients|1.0|1.3|1.7|2.2|3
 
 * Basic ROI : 0.3% per day, APY 109.5% 
 
-* Calculation: Total Yield / Round = basic ROI * genesis boost * mine owner level coefficient * mining boost level coefficient * re-investment coefficient*5 (days)
+* Calculation: Total Yield / Round = basic ROI * genesis boost * mine owner level coefficient * mining boost coefficient * re-investment coefficient*5 (days)
 
 
 > Example: You start mining for the first time during the genesis period, staked 15 ETH and 10,000 BUB at the same time, the 5-day ETH income will be 15 * 0.3% * 200% * 1.0 * 2.0 * 1.0 * 5 = 0.9 ETH, APY is as high as 438%; if you chooses to continue reinvesting in the 2nd round, the return will be 0.9 * 1.3 = 1.17 ETH, and the APY will increase to 569.4%.
@@ -127,15 +127,15 @@ BUB rewards for inviter|1,000|3,000|5,000
 
 * ETH Rewards: The basic return is 50% of the ETH mining reward of the invitee, and the boost coefficient of the referral level is as follows: 
 
-`Referral Boost Level Coefficient: calculate the level and coefficient based on Boost level.`
+`Referral Boost Coefficient: calculate the level and coefficient based on Boost level.`
 
 Boost level|LV1|LV2|LV3|LV4|LV5|LV6
 ---|:--|:--|:--|:--|:--|:--
 The amount of staked BUB|2,000|6,000|10,000|40,000|200,000|1,000,000
-Referral boost Level Coefficients|1|1|1|1.2|1.5|2
+Referral boost Coefficients|1|1|1|1.2|1.5|2
 
 
-* Calculation: Total Earnings=50% * ETH mining reward of the invitee * mine owner level coefficient * Referral boost Level coefficient+BUB rewards
+* Calculation: Total Earnings=50% * ETH mining reward of the invitee * mine owner level coefficient * Referral boost coefficient + BUB rewards
 
 > Example: You referred A, and you staked 15 ETH and 40,000 BUB for mining. During your mining period, A also invested 15 ETH for mining, earning 0.2 ETH per day. Then, after 5 days, the referral rewards you can get are 50% * 0.2 * 5 * 1.0 * 1.2 = 0.6 ETH and 5,000 BUB.
 
