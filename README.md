@@ -96,7 +96,7 @@ Coefficients|1.0|1.3|1.7|2.2|3
 * Calculation: Total Yield / Round = basic ROI * genesis boost * mine owner level coefficient * mining boost coefficient * re-investment coefficient*5 (days)
 
 
-> Example: You start mining for the first time during the genesis period, staked 15 ETH and 10,000 BUB at the same time, the 5-day ETH income will be 15 * 0.3% * 200% * 1.0 * 2.0 * 1.0 * 5 = 0.9 ETH, APY is as high as 438%; if you chooses to continue reinvesting in the 2nd round, the return will be 0.9 * 1.3 = 1.17 ETH, and the APY will increase to 569.4%.
+> Example: You start mining for the first time during the genesis period, staked 15 ETH and 10,000 BUB at the same time, the 5-day ETH income will be 15 * 0.3% * 2 * 1.0 * 2.0 * 1.0 * 5 = 0.9 ETH, APY is as high as 438%; if you chooses to continue reinvesting in the 2nd round, the return will be 0.9 * 1.3 = 1.17 ETH, and the APY will increase to 569.4%.
 
 
 ## 2.BUB Pool
@@ -109,7 +109,7 @@ Coefficients|1.0|1.3|1.7|2.2|3
 
 * Calculation: Total Yield / Round = basic ROI * genesis boost * mine owner level coefficient * re-investment coefficient
 
-> Example: You started mining for the first time during the genesis period, staked 15 ETH and 10,000 BUB at the same time. After 5 days, the profit will be 10000 * 5% * 200% * 1.0 * 1.0 = 1000 BUB, the APY is as high as 730%.
+> Example: You started mining for the first time during the genesis period, staked 15 ETH and 10,000 BUB at the same time. After 5 days, the profit will be 10,000 * 5% * 2 * 1.0 * 1.0 = 1,000 BUB, the APY is as high as 730%.
 
 
 ## 3.Referral Pool
@@ -141,10 +141,12 @@ Referral boost Coefficients|1|1|1|1.2|1.5|2
 
 # Prize Pool
 
-* Source of Funding: 2% of the ETH pool deposit will be automatically transferred to the prize pool. The proportion will increase to 3% after 20 days of contract deployment, 4% after 30 days, and 5% after 40 days. 
+* Source of Funding: 2% of the ETH pool deposit will be automatically transferred to the prize pool. The proportion will increase to 3% after 20 days of contract deployment, 4% after 30 days, and 5% after 40 days.In addition, 9,000,000 BUB will be released in 10 rounds based on the prize pool balance, and the released BUB will be converted into ETH to recharge into the prize pool. 
 
-* Prize Pool Distribution: Your rank is based on your BUB share locked in the prize pool, and the top 5 will share all prize pool as follows: 1st place 52%,2nd place 23%,3rd place 14%,4th place 8% and 5th place 3% . 
-* Draw: When contract balance of the ETH pool is 0, the system will lock the mining pool contract and start a 24-hour countdown. During the countdown, you can continue to stake BUB into the prize pool. After the countdown ends, the prize pool will be settled based on the latest ranking . 
+* Prize Pool Distribution: Your rank is based on your BUB share locked in the prize pool, and the top 5 will share all prize pool as follows: 1st place 52%,2nd place 23%,3rd place 14%,4th place 8% and 5th place 3%. 
+
+* Draw: When contract balance of the ETH pool is 0, the system will lock the mining pool contract and start a 24-hour countdown. During the countdown, you can continue to stake BUB into the prize pool. After the countdown ends, the prize pool will be settled based on the latest ranking. 
+
 * Protection Period: During 20 days of contract deployment, the draw will not be triggered when the ETH pool contract balance is 0.
  
 
