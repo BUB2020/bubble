@@ -18,17 +18,17 @@ Good Luck!
 
 Pool|Quantity|Percentage|Description
 ---|:--:|:--|:--
-initial liquidity|1000,000|1%|Add Uniswap liquidity injection
-BUB Pool|80,000,000|80%|BUB mining distribution
-Referral Pool|10,000,000|10%|Referral rewards
-Prize Pool|9,000,000|9%|It will be released in 10 rounds based on the prize pool balance, and the released BUB will be converted into ETH to recharge into the prize pool (see the table below for details)
+initial liquidity|200,000|0.2%|Add Uniswap liquidity injection
+BUB Pool|96,000,000|96%|BUB mining distribution
+Referral Pool|2,000,000|2%|Referral rewards
+Prize Pool|1,800,000|1.8%|It will be released in 10 rounds based on the prize pool balance, and the released BUB will be converted into ETH to recharge into the prize pool (see the table below for details)
 Total|100,000,000|100%            
 
 ## Release Ratio
 
 Round|1st round|2st round|3st round|4st round|5st round|6st round|7st round|8st round|9st round|10st round
 ---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--
-Prize pool balance（ETH）|500|750|1000|1250|1500|1750|2000|2250|2500|2750
+Prize pool balance（ETH）|100|150|200|250|300|400|500|600|700|800
 Release ratio|10%|10%|10%|10%|10%|10%|10%|10%|10%|10%
 
 
@@ -45,7 +45,7 @@ Release ratio|10%|10%|10%|10%|10%|10%|10%|10%|10%|10%
 
 Mine owner level|LV1|LV2|LV3
 ---|:--|:--|:--
-The amount of staked ETH|1-5|6-10|11-15
+The amount of staked ETH|1-5|6-10|>=11
 Coefficients|0.3|0.6|1
 
 
@@ -54,7 +54,7 @@ Coefficients|0.3|0.6|1
 
 Boost level|LV1|LV2|LV3|LV4|LV5|LV6 
 ---|:--|:--|:--|:--|:--|:--
-The amount of staked BUB|2,000|6,000|10,000|40,000|200,000|1,000,000 
+The amount of staked BUB|400|1,500|2,000|8,000|40,000|200,000 
 Mining Boost Coefficients|1.5|1.7|2|2|2|2
 
 
@@ -87,9 +87,9 @@ Coefficients|1.0|1.3|1.7|2.2|3
 
 * Mining Method: get extra ETH as a reward by staking your ETH.
 
-* Staking Limit per Round: 1-15 ETH
+* Staking Limit per Round: Above 1 ETH
 
-* Mine Owner Level: The one who stake 1-5 ETH is the LV1, the 6-10 ETH is the LV2, and the 11-15 ETH is the LV3.
+* Mine Owner Level: The one who stake 1-5 ETH is the LV1, the 6-10 ETH is the LV2, and above 11 ETH is the LV3.
 
 * Basic ROI : 0.3% per day, APY 109.5% 
 
@@ -103,13 +103,13 @@ Coefficients|1.0|1.3|1.7|2.2|3
 
 * Mining Method: get extra BUB as a reward by staking your BUB.
 
-* Basic ROI : 5% per round, APY 365%
+* Basic ROI : 15% per round, APY 1095%
 
 * You need to start ETH mining first, then you can stake BUB.
 
 * Calculation: Total Yield / Round = basic ROI * genesis boost * mine owner level coefficient * re-investment coefficient
 
-> For example: You started mining for the first time during the genesis period, staked 15 ETH and 10,000 BUB at the same time. After 5 days, the profit will be 10,000 * 5% * 2 * 1.0 * 1.0 = 1,000 BUB, the APY is as high as 730%.
+> For example: You started mining for the first time during the genesis period, staked 15 ETH and 20,000 BUB at the same time. After 5 days, the profit will be 15,000 * 15% * 2 * 1.0 * 1.0 = 2,250 BUB, the APY is as high as 2190%.
 
 
 ## 3.Referral Pool
@@ -122,7 +122,7 @@ Coefficients|1.0|1.3|1.7|2.2|3
 
 Mine owner level of invitee|LV1|LV2|LV3
 ---|:--|:--|:--
-BUB rewards for inviter|1,000|3,000|5,000
+BUB rewards for inviter|200|600|1,000
 
 
 * ETH Rewards: The basic return is 50% of the ETH mining reward of the invitee, and the boost coefficient of the referral level is as follows: 
@@ -131,13 +131,13 @@ BUB rewards for inviter|1,000|3,000|5,000
 
 Boost level|LV1|LV2|LV3|LV4|LV5|LV6
 ---|:--|:--|:--|:--|:--|:--
-The amount of staked BUB|2,000|6,000|10,000|40,000|200,000|1,000,000
+The amount of staked BUB|400|1,500|2,000|8,000|40,000|200,000
 Referral boost Coefficients|1|1|1|1.2|1.5|2
 
 
 * Calculation: Total Earnings=50% * ETH mining reward of the invitee * mine owner level coefficient * Referral boost coefficient + BUB rewards
 
-> For example: You referred A, and you staked 15 ETH and 40,000 BUB for mining. During your mining period, A also invested 15 ETH for mining, earning 0.2 ETH per day. Then, after 5 days, the referral rewards you can get are 50% * 0.2 * 5 * 1.0 * 1.2 = 0.6 ETH and 5,000 BUB.
+> For example: You referred A, and you staked 15 ETH and 15,000 BUB for mining. During your mining period, A also invested 15 ETH for mining, earning 0.2 ETH per day. Then, after 5 days, the referral rewards you can get are 50% * 0.2 * 5 * 1.0 * 1.2 = 0.6 ETH and 1,000 BUB.
 
 # Prize Pool
 
