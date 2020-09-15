@@ -40,10 +40,10 @@ Release ratio|10%|10%|10%|10%|10%|10%|10%|10%|10%|10%
 ## Coefficients List
 
 
-* 1.Mine Owner Level Coefficient: Calculate the level and coefficient based on the amount of ETH staked for mining. 
+* 1.Miner Level Coefficient: Calculate the level and coefficient based on the amount of ETH staked for mining. 
 
 
-Mine owner level|LV1|LV2|LV3
+Miner level|LV1|LV2|LV3
 ---|:--|:--|:--
 The amount of staked ETH|1-5|6-10|>=11
 Coefficients|0.3|0.6|1
@@ -87,13 +87,13 @@ Coefficients|1.0|1.3|1.7|2.2|3
 
 * Mining Method: get extra ETH as a reward by staking your ETH.
 
-* Staking Limit per Round: Above 1 ETH
+* Staking Limit per Round:1-∞, but the mining rewards of 15 ETH is calculated at most, and the excess part can be used to increase the mining limit of the BUB pool.
 
-* Mine Owner Level: The one who stake 1-5 ETH is the LV1, the 6-10 ETH is the LV2, and above 11 ETH is the LV3.
+* Miner Level: The one who stake 1-5 ETH is the LV1, the 6-10 ETH is the LV2, and greater than or equal to 11 ETH is the LV3.
 
 * Basic ROI : 0.3% per day, APY 109.5% 
 
-* Calculation: Total Yield / Round = basic ROI * genesis boost * mine owner level coefficient * mining boost coefficient * re-investment coefficient*5 (days)
+* Calculation: Total Yield / Round = basic ROI * genesis boost * miner level coefficient * mining boost coefficient * re-investment coefficient*5 (days)
 
 
 > For example: You start mining for the first time during the genesis period, staked 15 ETH and 10,000 BUB at the same time, the 5-day ETH income will be 15 * 0.3% * 2 * 1.0 * 2.0 * 1.0 * 5 = 0.9 ETH, APY is as high as 438%; if you chooses to continue reinvesting in the 2nd round, the return will be 0.9 * 1.3 = 1.17 ETH, and the APY will increase to 569.4%.
@@ -103,13 +103,15 @@ Coefficients|1.0|1.3|1.7|2.2|3
 
 * Mining Method: get extra BUB as a reward by staking your BUB.
 
+* Staking Limit per Round:1-∞，but the BUB mining limit will be converted at a ratio of 1:1,000 based on the number of ETH you are staking.e.g. if you stake 20 ETH, then there will be 20,000 BUB that can be used to calculate the mining rewards, and there is no benefit for the excess.
+
 * Basic ROI : 15% per round, APY 1095%
 
 * You need to start ETH mining first, then you can stake BUB.
 
-* Calculation: Total Yield / Round = basic ROI * genesis boost * mine owner level coefficient * re-investment coefficient
+* Calculation: Total Yield / Round = basic ROI * genesis boost * miner level coefficient * re-investment coefficient
 
-> For example: You started mining for the first time during the genesis period, staked 15 ETH and 20,000 BUB at the same time. After 5 days, the profit will be 15,000 * 15% * 2 * 1.0 * 1.0 = 2,250 BUB, the APY is as high as 2190%.
+> For example: You started mining for the first time during the genesis period, staked 15 ETH and 15,000 BUB at the same time. After 5 days, the profit will be 15,000 * 15% * 2 * 1.0 * 1.0 = 4,500 BUB, the APY is as high as 2190%.
 
 
 ## 3.Referral Pool
@@ -120,7 +122,7 @@ Coefficients|1.0|1.3|1.7|2.2|3
 * BUB Rewards: Every time the invitee starts a round of ETH mining, the inviter will receive a fixed BUB reward.
 
 
-Mine owner level of invitee|LV1|LV2|LV3
+Miner level of invitee|LV1|LV2|LV3
 ---|:--|:--|:--
 BUB rewards for inviter|200|600|1,000
 
@@ -135,13 +137,13 @@ The amount of staked BUB|400|1,500|2,000|8,000|40,000|200,000
 Referral boost Coefficients|1|1|1|1.2|1.5|2
 
 
-* Calculation: Total Earnings=50% * ETH mining reward of the invitee * mine owner level coefficient * Referral boost coefficient + BUB rewards
+* Calculation: Total Earnings=50% * ETH mining reward of the invitee * miner level coefficient * Referral boost coefficient + BUB rewards
 
 > For example: You referred A, and you staked 15 ETH and 15,000 BUB for mining. During your mining period, A also invested 15 ETH for mining, earning 0.2 ETH per day. Then, after 5 days, the referral rewards you can get are 50% * 0.2 * 5 * 1.0 * 1.2 = 0.6 ETH and 1,000 BUB.
 
 # Prize Pool
 
-* Source of Funding: 2% of the ETH pool deposit will be automatically transferred to the prize pool. The proportion will increase to 3% after 20 days of contract deployment, 4% after 30 days, and 5% after 40 days.In addition, 9,000,000 BUB will be released in 10 rounds based on the prize pool balance, and the released BUB will be converted into ETH to recharge into the prize pool. 
+* Source of Funding: 2% of the ETH pool deposit will be automatically transferred to the prize pool. The proportion will increase to 3% after 20 days of contract deployment, 4% after 30 days, and 5% after 40 days.In addition, 1,800,000 BUB will be released in 10 rounds based on the prize pool balance, and the released BUB will be converted into ETH to recharge into the prize pool. 
 
 * Prize Pool Distribution: Your rank is based on your BUB share locked in the prize pool, and the top 5 will share all prize pool as follows: 1st place 52%,2nd place 23%,3rd place 14%,4th place 8% and 5th place 3%. 
 
